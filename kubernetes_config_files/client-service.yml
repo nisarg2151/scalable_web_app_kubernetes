@@ -1,0 +1,15 @@
+# server-service.yml
+apiVersion: v1
+kind: Service
+metadata:
+  name: client
+  labels:
+    name: client
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+      targetPort: 8000
+      protocol: TCP
+  selector:
+    name: client

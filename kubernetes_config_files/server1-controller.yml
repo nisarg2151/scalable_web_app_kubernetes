@@ -1,0 +1,19 @@
+apiVersion: v1 # for versions before 1.9.0 use apps/v1beta2
+kind: ReplicationController
+metadata:
+  labels:
+    name: server1
+  name: server1-controller
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        name: server1
+    spec:
+      containers:
+      - image: gcr.io/tactical-unison-138523/server3
+        name: server1
+        ports:
+        - containerPort: 1234
+          name: http-server

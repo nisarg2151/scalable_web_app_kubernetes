@@ -1,0 +1,29 @@
+# db-controller.yml
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  labels:
+    name: mymongodb
+  name: mongo-controller
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: mymongodb
+    spec:
+      containers:
+      - image: mongo
+        name: mymongodb
+        ports:
+        - name: mymongodb
+          containerPort: 27017
+          hostPort: 27017
+        volumeMounts:
+            - name: mongo-persistent-storage1
+              mountPath: /data/db
+      volumes:
+        - name: mongo-persistent-storage1
+          gcePersistentDisk:
+            pdName: mongo-disk1
+            fsType: ext4
