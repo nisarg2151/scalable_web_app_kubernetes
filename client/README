@@ -1,0 +1,6 @@
+prj3-sol is CORS-enabled but does not enable the Location header.
+This could be changed, but instead this prj5-sol simply assumes that
+the last image on the unhide page should be preselected after a
+successful hide.
+
+

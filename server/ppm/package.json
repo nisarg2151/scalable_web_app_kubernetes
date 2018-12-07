@@ -1,0 +1,39 @@
+{
+  "_args": [
+    [
+      "ppm@http://zdu.binghamton.edu/cs580w/lib/ppm.tar.gz",
+      "C:\\Users\\nisar\\Documents\\GitHub\\i580w\\work\\prj3-sol\\steg-ws"
+    ]
+  ],
+  "_from": "ppm@http://zdu.binghamton.edu/cs580w/lib/ppm.tar.gz",
+  "_id": "ppm@http://zdu.binghamton.edu/cs580w/lib/ppm.tar.gz",
+  "_inBundle": false,
+  "_integrity": "sha512-I3gJcOAIbH3UKuPENSm+V3+5dRp6jSb1VA/V1VvinO0HURM7+B7PLe8Ui8A2ezsxtuESB5pCA5xaSot8nfq2PA==",
+  "_location": "/ppm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "ppm@http://zdu.binghamton.edu/cs580w/lib/ppm.tar.gz",
+    "name": "ppm",
+    "escapedName": "ppm",
+    "rawSpec": "http://zdu.binghamton.edu/cs580w/lib/ppm.tar.gz",
+    "saveSpec": "http://zdu.binghamton.edu/cs580w/lib/ppm.tar.gz",
+    "fetchSpec": "http://zdu.binghamton.edu/cs580w/lib/ppm.tar.gz"
+  },
+  "_requiredBy": [
+    "/",
+    "/img-store",
+    "/steg"
+  ],
+  "_spec": "http://zdu.binghamton.edu/cs580w/lib/ppm.tar.gz",
+  "_where": "C:\\Users\\nisar\\Documents\\GitHub\\i580w\\work\\prj3-sol\\steg-ws",
+  "author": "",
+  "description": "Extract PPM info from PPM bytes",
+  "license": "ISC",
+  "main": "ppm.js",
+  "name": "ppm",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "http://zdu.binghamton.edu/cs580w/lib/ppm.tar.gz"
+}

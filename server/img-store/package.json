@@ -1,0 +1,44 @@
+{
+  "_args": [
+    [
+      "img-store@http://zdu.binghamton.edu/cs580w/lib/img-store.tar.gz",
+      "C:\\Users\\nisar\\Documents\\GitHub\\i580w\\work\\prj3-sol\\steg-ws"
+    ]
+  ],
+  "_from": "img-store@http://zdu.binghamton.edu/cs580w/lib/img-store.tar.gz",
+  "_id": "img-store@http://zdu.binghamton.edu/cs580w/lib/img-store.tar.gz",
+  "_inBundle": false,
+  "_integrity": "sha512-K9hvXnCxZCLhW68QTSTzkDqKAsFZLwTqhshhbBay59hkaSXdbSiwqSdPgSpVGRjMeJ2J1qFngE2zRwlws4nNGw==",
+  "_location": "/img-store",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "img-store@http://zdu.binghamton.edu/cs580w/lib/img-store.tar.gz",
+    "name": "img-store",
+    "escapedName": "img-store",
+    "rawSpec": "http://zdu.binghamton.edu/cs580w/lib/img-store.tar.gz",
+    "saveSpec": "http://zdu.binghamton.edu/cs580w/lib/img-store.tar.gz",
+    "fetchSpec": "http://zdu.binghamton.edu/cs580w/lib/img-store.tar.gz"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_spec": "http://zdu.binghamton.edu/cs580w/lib/img-store.tar.gz",
+  "_where": "C:\\Users\\nisar\\Documents\\GitHub\\i580w\\work\\prj3-sol\\steg-ws",
+  "author": "",
+  "bin": {
+    "img-store": "./img-store-cli.js"
+  },
+  "dependencies": {
+    "mongodb": "^3.0.4",
+    "ppm": "http://zdu.binghamton.edu/cs580w/lib/ppm.tar.gz"
+  },
+  "description": "store and retrieve images from mongodb",
+  "license": "ISC",
+  "main": "img-store.js",
+  "name": "img-store",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "img-store"
+}

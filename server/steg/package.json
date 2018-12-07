@@ -1,0 +1,40 @@
+{
+  "_args": [
+    [
+      "steg@http://zdu.binghamton.edu/cs580w/lib/steg.tar.gz",
+      "C:\\Users\\nisar\\Documents\\GitHub\\i580w\\work\\prj3-sol\\steg-ws"
+    ]
+  ],
+  "_from": "steg@http://zdu.binghamton.edu/cs580w/lib/steg.tar.gz",
+  "_id": "steg@http://zdu.binghamton.edu/cs580w/lib/steg.tar.gz",
+  "_inBundle": false,
+  "_integrity": "sha512-Yq8yMYYpXH5MIo1Gi4Fiew82HBBINqguxbTX7uRfA74B3t9e68H4ANREaziQ3Z+79eBrCsZL5kHlIzFFBAt8cg==",
+  "_location": "/steg",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "steg@http://zdu.binghamton.edu/cs580w/lib/steg.tar.gz",
+    "name": "steg",
+    "escapedName": "steg",
+    "rawSpec": "http://zdu.binghamton.edu/cs580w/lib/steg.tar.gz",
+    "saveSpec": "http://zdu.binghamton.edu/cs580w/lib/steg.tar.gz",
+    "fetchSpec": "http://zdu.binghamton.edu/cs580w/lib/steg.tar.gz"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_spec": "http://zdu.binghamton.edu/cs580w/lib/steg.tar.gz",
+  "_where": "C:\\Users\\nisar\\Documents\\GitHub\\i580w\\work\\prj3-sol\\steg-ws",
+  "author": "",
+  "dependencies": {
+    "ppm": "http://zdu.binghamton.edu/cs580w/lib/ppm.tar.gz"
+  },
+  "description": "Hiding and recovering text messages in PPM images",
+  "license": "ISC",
+  "main": "steg.js",
+  "name": "steg",
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "http://zdu.binghamton.edu/cs580w/lib/steg.tar.gz"
+}
